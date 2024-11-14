@@ -22,4 +22,7 @@ artifacts:
     - unicorn-web-project/target/unicorn-web-project.war
     - unicorn-web-project/appspec.yml
     - unicorn-web-project/scripts/**/*
+    - unicorn-web-project/Dockerfile
+    -unicorn-web-project/buildspec_docker.yml
+
   discard-paths: no
